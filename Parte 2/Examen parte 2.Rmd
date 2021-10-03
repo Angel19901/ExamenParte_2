@@ -1,5 +1,5 @@
 ---
-title: "Regresion lineal y grafica"
+title: "Examen Parte 2"
 author: "Chávez García Ángel Yair"
 date: "2/10/2021"
 output: html_document
@@ -9,7 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<h1>Se esta usando R Markdown para facilitar el uso de codigo R y realizar mas facilmente la graficación y la función de minimos cuadrados y ademas se utilizo el uso de Sage para resolver un sistema de ecuaciones</h1>
+<h5>Se esta usando R Markdown para facilitar el uso de codigo R y realizar mas facilmente la graficación y la función de minimos cuadrados y ademas se utilizo Sage para resolver un sistema de ecuaciones, se agrega tambien un link a github donde encotra el archivo funte de este pdf generado apartir de un html y codigo utilizado para generar entradas, ademas de funciones en c++ para medir el tiempo y el codigo funte de la implementación del algoritmo llamado "findN.cpp"</h5>
+
+<a href="https://github.com/Angel19901/ExamenParte_2" >Link a github</a>
 
 <p><b>Pseudocodigo:</b></p>
   
@@ -236,7 +238,7 @@ using namespace std;
  }
 $$Fin$$
 
-Data obtenida de medir el tiempo del algoritmo
+Datos obtenidos de medir el tiempo del algoritmo. "x" es el tamaño de la entrada "y" el tiempo de ejecuión.
 
 ```{r}
 x =
@@ -319,6 +321,8 @@ Generamos Y con los valores encontrados
 Y = a3 * (log(X)/log(2))^2 + a2 * (log(X)/log(2)) + a1
 
 ```
+
+graficas del algorimo en azul y minimos cuadrados en rojo
 
 ```{r}
 
