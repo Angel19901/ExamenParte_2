@@ -1,0 +1,35 @@
+
+ binarySearchRightest( A, left, right, Target)
+    L <- left
+    R <- right
+
+    while (L < R)
+        m <- floor((L + R) / 2)
+
+        if (A[m] > Target)
+            R <- m
+        else
+            L <- m + 1;
+
+    return R;
+
+N_esimo( A, B, Nesimo)
+    n <- B.size();           
+    l <- min(B[0], A[0]);       
+    r <- max(A[n - 1], B[n - 1])
+    ans <- r + 1;            
+
+
+    while (l <= r)
+        m <- floor((l + r) / 2)
+
+        SumDistance <- binarySearchRightest(A, 0, n, m);
+        SumDistance <- SumDistance + binarySearchRightest(B, 0, n, m);
+
+        if (SumDistance >= Nesimo)
+            ans = min(ans, m);
+            r <- m - 1;
+        else
+            l <- m + 1;
+
+    return ans;

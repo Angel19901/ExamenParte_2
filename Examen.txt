@@ -1,0 +1,48 @@
+Conteste y justifique cada problema que le corresponda. 
+Cada problema tiene su puntaje indicado.
+
+
+Parte 1. Entrega individual (deadline: jueves 4:20pm).
+
+Problema 1. Resuelva las siguientes recursiones. (2 puntos)
+a) T(n)=T(n/6)+T(5n/6)+θ(n)
+
+
+b) Hint: Use cambio de variable dos veces y luego use el método maestro.
+
+T(n)=3n√T(n√)+n√lg(n)
+
+
+Problema 2. Sobre algoritmos de ordenación. (1.5 puntos)
+
+- ¿Cuál es el tiempo de ejecución de Heap-sort en un arreglo cuyas entrada ya está ordenada?
+
+- Ejecute (paso a paso) el algoritmo más eficiente de ordenación usando su número de cuenta como el arreglo a ordenar.
+
+
+
+Problema 3. (2.5 puntos)
+
+Halle un algoritmo que eleva un número b a la potencia natural deseada n cuyo tiempo de ejecución sea θ(lg n).
+
+
+
+Parte 2. Entrega en equipo (deadline: sábado). 
+
+Problema 4. (4 puntos max)
+
+1. Resuelva el problemas 5 de la tarea
+
+2. Escriba el pseudocódigo
+
+3. Argumente por qué es correcto su algoritmo
+
+4. Calcule su tiempo de ejecución
+
+5. Impleméntelo
+
+6. Agregue entrada aleatorias de al menos 10,000-100,000 elementos
+
+7. Grafique la curva del tiempo de ejecución
+
+8. Ajuste una curva vía mínimos cuadrados del tipo a(lg(n))^2+blg(n)+c.

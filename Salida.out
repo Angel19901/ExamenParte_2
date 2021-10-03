@@ -1,0 +1,35 @@
+**************************************************************************************************
+*NOTA:                                                                                           *
+* Si quieres que este algoritmo sea O(( lg(n) )^2)                                               *
+* Entonces coloca valores K, K + 1, K + 2, ..., K + 2 n - 1                                      *
+* k = minimo valor entre tus dos arreglos, n = tamanio de tus arreglos                           *
+* En otro caso este algoritmo sera 0( lg( max(S[ i ],T[ i ]) - min(S[ i ], T[ i ] ) ) * lg(n) )  *
+**************************************************************************************************
+
+
+Presiona cualquier letra de tu teclado para continuar... 
+
+ingrese el tamanio de su arreglo: 
+Llene sus dos arreglos.
+Sus arreglos ya deben estar ordenados
+Llene el arreglo en la posicion S[ 1 ] 
+Llene el arreglo en la posicion S[ 2 ] 
+Llene el arreglo en la posicion S[ 3 ] 
+Llene el arreglo en la posicion S[ 4 ] 
+Llene el arreglo en la posicion S[ 5 ] 
+Llene el arreglo en la posicion S[ 6 ] 
+Llene el arreglo en la posicion S[ 7 ] 
+Llene el arreglo en la posicion S[ 8 ] 
+Llene el arreglo en la posicion S[ 9 ] 
+Llene el arreglo en la posicion S[ 10 ] 
+Llene el arreglo en la posicion T[ 1 ] 
+Llene el arreglo en la posicion T[ 2 ] 
+Llene el arreglo en la posicion T[ 3 ] 
+Llene el arreglo en la posicion T[ 4 ] 
+Llene el arreglo en la posicion T[ 5 ] 
+Llene el arreglo en la posicion T[ 6 ] 
+Llene el arreglo en la posicion T[ 7 ] 
+Llene el arreglo en la posicion T[ 8 ] 
+Llene el arreglo en la posicion T[ 9 ] 
+Llene el arreglo en la posicion T[ 10 ] 
+El enesimo es: 9
